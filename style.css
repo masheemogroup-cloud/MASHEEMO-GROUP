@@ -104,6 +104,11 @@ body {
 
 .footer {
   background: #000;
+  .logo img {
+  height: 45px;
+  width: auto;
+}
+
   color: #fff;
   text-align: center;
   padding: 20px;
