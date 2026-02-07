@@ -152,29 +152,18 @@ input, textarea {
     width: auto;
     display: block;
 }
-/* Why Choose Us - Simple Bullet Style */
-.why-choose {
-    padding: 40px;
-    max-width: 1000px;
-}
-
-.why-choose h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #000;
-}
-
+/* WHY CHOOSE US – FORCE SIMPLE LIST */
 .why-choose ul {
-    padding-left: 20px;
+    display: block !important;
+    list-style-type: disc;
+    padding-left: 25px;
 }
 
 .why-choose li {
+    display: list-item !important;
+    width: 100%;
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.8;
     color: #000;
-    margin-bottom: 8px;
-}
-
-.why-choose strong {
-    font-weight: 700;
 }
