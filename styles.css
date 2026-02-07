@@ -152,18 +152,22 @@ input, textarea {
     width: auto;
     display: block;
 }
-/* WHY CHOOSE US – FORCE SIMPLE LIST */
-.why-choose ul {
-    display: block !important;
-    list-style-type: disc;
-    padding-left: 25px;
+/* WHY CHOOSE US – CLEAN LIST STYLE */
+.why-list {
+  list-style: disc;
+  padding-left: 25px;
+  max-width: 900px;
+  margin: 20px auto;
 }
 
-.why-choose li {
-    display: list-item !important;
-    width: 100%;
-    margin-bottom: 8px;
-    font-size: 16px;
-    line-height: 1.8;
-    color: #000;
+.why-list li {
+  display: block;          /* force vertical */
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.why-list li strong {
+  font-weight: 700;
 }
