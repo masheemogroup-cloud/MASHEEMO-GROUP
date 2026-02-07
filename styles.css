@@ -9,8 +9,10 @@ body {
 
 header {
     background-color: #007bff;
-    color: white;
-    padding: 1rem;
+    height: 80px;              /* blue bar ki height */
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
 }
 
 nav {
@@ -138,13 +140,15 @@ input, textarea {
 }.logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     font-weight: bold;
     font-size: 20px;
     color: #ffb300;
 }
 
 .logo img {
-    height: 50px;
+    height: 100%;        /* header ki poori height le */
+    max-height: 80px;    /* header se zyada nahi */
     width: auto;
+    display: block;
 }
